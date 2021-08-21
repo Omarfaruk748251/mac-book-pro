@@ -90,7 +90,7 @@ function calculate(memory, storage, deliverycharge, code) {
 
 
 //Update memory price
-document.getElementById('16gb-memory').addEventListener('click', function () {
+document.getElementById('16gb-memory-button').addEventListener('click', function () {
 
     updateMemoryPrice('16gb');
 
@@ -98,7 +98,7 @@ document.getElementById('16gb-memory').addEventListener('click', function () {
 
 
 });
-document.getElementById('8gb-memory').addEventListener('click', function () {
+document.getElementById('8gb-memory-button').addEventListener('click', function () {
 
     updateMemoryPrice('8gb');
     calculate('8gb');
@@ -107,21 +107,21 @@ document.getElementById('8gb-memory').addEventListener('click', function () {
 });
 
 //update Storage price 
-document.getElementById('256gb-ssd').addEventListener('click', function () {
+document.getElementById('256gb-ssd-button').addEventListener('click', function () {
 
     updateStoragePrice('256gb-storage');
     calculate('256gb-storage');
 
 
 });
-document.getElementById('512gb-ssd').addEventListener('click', function () {
+document.getElementById('512gb-ssd-button').addEventListener('click', function () {
 
     updateStoragePrice('512gb-storage');
     calculate('512gb-storage');
 
 
 });
-document.getElementById('1tb-ssd').addEventListener('click', function () {
+document.getElementById('1tb-ssd-button').addEventListener('click', function () {
 
     updateStoragePrice('1tb-storage');
     calculate('1tb-storage');
